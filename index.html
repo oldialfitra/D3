@@ -1,0 +1,219 @@
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Rotten Tomato Juice</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        .liquidFillGaugeText {
+            font-family: Helvetica;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="team" class="pb-5">
+        <div class="container">
+            <h1 class="text-center">Rating</h1>
+            <svg id="fillgauge1" width="97%" height="250"></svg>
+            <h5 class="section-title h1 text-center">Anime</h5>
+            <div class="row">
+                <!-- Team member -->
+                <div id="1" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(0));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Kingsglaive: Final Fantasy XV</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="2" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(1));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Band of Ninja</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="3" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(2));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Tarou-san no Kisha</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="4" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(3));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Chou no Sainan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="5" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(4));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Izakaya no Ichiya</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="6" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(5));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Sankou to Tako: Hyakumanryou Chinsoudou</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="7" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(6));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Doubutsu Mura no Sports Day</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="8" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(7));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Doubutsu Mura no Daisodou</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="9" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(8));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Hibari no Yadogae</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="10" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(9));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Tairiki Tarou no Mucha Shuugyou</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="11" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(10));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Doubutsu Sumo Taikai</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="12" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(11));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Nezumi no Rusuban</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="13" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(12));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Urashima Tarou (1931)</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="14" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(13));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Ninjutsu Hinotama Kozou: Edo no Maki</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="15" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(14));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Ponsuke no Udekurabe</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="16" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(15));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Taekwon Dongja Maruchi Arachi</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="17" class="col-xs-12 col-sm-6 col-md-4" onclick="gauge1.update(NewValue(16));">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">The Siamese: First Mission</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+    <script src="main.js" language="JavaScript"></script>
+</body>
+
+</html>

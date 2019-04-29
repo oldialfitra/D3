@@ -1,0 +1,155 @@
+[
+    {
+      "anime_id": 33082,
+      "name": "Kingsglaive: Final Fantasy XV",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 7.83,
+      "members": 15508
+    },
+    {
+      "anime_id": 5232,
+      "name": "Band of Ninja",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 5.82,
+      "members": 748
+    },
+    {
+      "anime_id": 5873,
+      "name": "Tarou-san no Kisha",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 5.49,
+      "members": 662
+    },
+    {
+      "anime_id": 5869,
+      "name": "Chou no Sainan",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 5.38,
+      "members": 619
+    },
+    {
+      "anime_id": 6829,
+      "name": "Izakaya no Ichiya",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 5.31,
+      "members": 406
+    },
+    {
+      "anime_id": 5874,
+      "name": "Sankou to Tako: Hyakumanryou Chinsoudou",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 5.22,
+      "members": 369
+    },
+    {
+      "anime_id": 5872,
+      "name": "Doubutsu Mura no Sports Day",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 5.18,
+      "members": 448
+    },
+    {
+      "anime_id": 6848,
+      "name": "Doubutsu Mura no Daisodou",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 5.17,
+      "members": 355
+    },
+    {
+      "anime_id": 5870,
+      "name": "Hibari no Yadogae",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 4.98,
+      "members": 519
+    },
+    {
+      "anime_id": 4462,
+      "name": "Tairiki Tarou no Mucha Shuugyou",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 4.8,
+      "members": 852
+    },
+    {
+      "anime_id": 5812,
+      "name": "Doubutsu Sumo Taikai",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 4.67,
+      "members": 585
+    },
+    {
+      "anime_id": 5811,
+      "name": "Nezumi no Rusuban",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 4.64,
+      "members": 532
+    },
+    {
+      "anime_id": 5813,
+      "name": "Urashima Tarou (1931)",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 4.58,
+      "members": 841
+    },
+    {
+      "anime_id": 6833,
+      "name": "Ninjutsu Hinotama Kozou: Edo no Maki",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 4.15,
+      "members": 474
+    },
+    {
+      "anime_id": 7527,
+      "name": "Ponsuke no Udekurabe",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 6.4,
+      "members": 91
+    },
+    {
+      "anime_id": 14821,
+      "name": "Taekwon Dongja Maruchi Arachi",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 4.53,
+      "members": 93
+    },
+    {
+      "anime_id": 15399,
+      "name": "The Siamese: First Mission",
+      "genre": "Action",
+      "type": "Movie",
+      "episodes": 1,
+      "rating": 5.85,
+      "members": 127
+    }
+  ]
